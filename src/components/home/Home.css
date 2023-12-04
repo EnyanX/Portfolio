@@ -1,0 +1,43 @@
+.home-header {
+  padding-top: 80px !important;
+}
+
+.home-header hr{
+  width: 60%;
+  
+}
+
+.home-section {
+  position: relative;
+  z-index: -1;
+  background-image: var(--image-gradient), url(../../Assets/background.jpeg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+
+.home-content {
+  padding: 9rem 0 2rem !important;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.home-greeting {
+  color: #AEDEFC;
+  /* font-family: monospace; */
+  font-family: 'Major Mono Display', monospace;
+}
+
+.home-name {
+  color: white;
+  margin-bottom: 50px;
+  /* font-family: 'Major Mono Display', monospace; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icons {
+  width: 50px;
+}
+
+
