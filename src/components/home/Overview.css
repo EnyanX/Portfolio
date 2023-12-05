@@ -1,6 +1,7 @@
 .overview {
     margin-top: 130px;
     margin-bottom: 130px;
+    animation: fade-in 5s;
 }
 
 .overview hr {

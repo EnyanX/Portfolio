@@ -64,22 +64,6 @@
   height: auto
 }
 
-
-@keyframes jello {
-  0% {
-    transform: scale(1, 1);
-  }
-  25% {
-    transform: scale(0.9, 1.1);
-  }
-  50% {
-    transform: scale(1.1, 0.99);
-  }
-  75% {
-    transform: scale(0.95, 1.05);
-  }
-}
-
 .animation-jello {
   animation-name: jello;
   animation-duration: 3s;
