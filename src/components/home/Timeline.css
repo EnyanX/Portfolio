@@ -1,3 +1,7 @@
+.timeline {
+    animation: fade-in 5s;
+}
+
 .timeline hr {
     height: 10px;
     background-color: #A7D397;

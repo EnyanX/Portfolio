@@ -17,8 +17,8 @@ export default function Timeline() {
       </Row>
       <Row>
         {/* <Fade in> */}
-        <Col md={1}></Col>
-        <Col>
+        <Col md={2}></Col>
+        <Col >
           <div style={{}}>
             <Chrono
               scrollable

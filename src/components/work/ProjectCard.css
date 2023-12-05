@@ -1,0 +1,11 @@
+.project-card {
+    text-align: center;
+    height: 300px;
+    border-style: double;
+    border-width: 2px;
+    border-radius: 15px;  
+    border-color: #E5CFF7;
+    /* padding: 20px;  */
+    box-sizing: border-box;
+    font-family: monospace;
+}

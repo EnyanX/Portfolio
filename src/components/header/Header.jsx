@@ -11,8 +11,7 @@ export default function Header() {
           <NavLink
             key={tag}
             to={`/${PAGES[idx]}`}
-            activeClassName="active"
-            className="header-navlink"
+            className="tag"
           >
             {tag}
           </NavLink>

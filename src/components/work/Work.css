@@ -1,0 +1,18 @@
+.work {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    animation: fade-in 3s;
+}
+
+.work hr {
+    height: 10px;
+    background-color: #AEDEFC;
+    position: relative;
+    top: -20px;
+    width: 115%;
+    opacity: 1; 
+}
+
+.work-content {
+    margin-top: 77px;
+}

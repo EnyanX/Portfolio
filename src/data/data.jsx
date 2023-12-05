@@ -3,7 +3,7 @@ import USC from "../Assets/USC.png";
 import Pega from "../Assets/Pega.svg";
 
 export const TAGS = ["HOME", "WORK"];
-export const PAGES = ["home", "work"];
+export const PAGES = ["", "work"];
 
 export const ASPECTS = ["Backend Developer", "Frontend Developer", "Tech Content Creator", "National Chess Master"];
 const backendTools = "Java/C++/Kotlin/Go";
