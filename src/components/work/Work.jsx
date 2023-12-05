@@ -6,7 +6,7 @@ import ProjectRow from "./ProjectRow";
 export default function Work() {
     return (
       <Container className="work">
-        <Row>
+        <Row className="work-header">
             <Col md={1} ></Col>
             <Col md={2}>
                 <h1 className="big-text">PROJECTS</h1>
@@ -14,6 +14,7 @@ export default function Work() {
             </Col>
         </Row>
         <Container className="work-content">
+          <ProjectRow />
           <ProjectRow />
         </Container>
       </Container>
