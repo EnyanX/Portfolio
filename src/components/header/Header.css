@@ -1,9 +1,9 @@
 nav {
-  text-align: center;
+  /* text-align: center; */
+  margin: auto;
 }
 nav ul {
-  font-size: 11pt;
-  /* font-family: monospace; */
+  font-size: 14pt;
   font-family: 'Major Mono Display', monospace;
   margin-top:30px;
 }

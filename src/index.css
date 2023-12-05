@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Indie+Flower&family=Klee+One&family=Major+Mono+Display&family=Red+Hat+Mono:wght@300&family=Shadows+Into+Light&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@600&family=Major+Mono+Display&display=swap&family=IBM+Plex+Mono:ital,wght@1,100');
 
 * {
   box-sizing: border-box;
@@ -9,8 +10,15 @@
 
 html {
   background-color: black;
-  /* background-image: url('/Assets/background.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;  */
+  overflow-y: scroll;
+}
+
+:root {
+  overflow-x: hidden;
+}
+
+.big-text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
+  margin-bottom: 15px;
 }

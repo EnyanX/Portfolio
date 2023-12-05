@@ -1,0 +1,8 @@
+.timeline hr {
+    height: 10px;
+    background-color: #A7D397;
+    position: relative;
+    top: -20px;
+    width: 19%;
+    opacity: 1; 
+}

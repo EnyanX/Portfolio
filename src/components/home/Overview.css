@@ -1,0 +1,45 @@
+.overview {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.overview hr {
+    height: 10px;
+    background-color: #A7D397;
+    position: relative;
+    top: -20px;
+    width: 21%;
+    opacity: 1; 
+}
+
+.overview-description {
+    font-family: monospace;
+    margin-bottom: 50px;
+}
+
+.aspect {
+    margin-right: 75px;
+    text-align: center;
+    height: 250px;
+    border-style: double;
+    border-width: 2px;
+    border-radius: 15px;  
+    border-color: #E5CFF7;
+    padding: 20px; 
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.aspect p {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.aspect-icon {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.aspect-icon img {
+    width: 60px
+}
+
