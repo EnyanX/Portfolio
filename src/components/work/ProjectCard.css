@@ -1,11 +1,21 @@
 .project-card {
     text-align: center;
-    height: 300px;
+    height: 360px;
     border-style: double;
     border-width: 2px;
     border-radius: 15px;  
     border-color: #E5CFF7;
-    /* padding: 20px;  */
     box-sizing: border-box;
     font-family: monospace;
+}
+
+.project-card img {
+    width: 100%;
+    border-width: 2px;
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+}
+
+.project-card h5{
+    margin-top: 10px;
 }
