@@ -26,3 +26,13 @@
 .project-card-description {
     margin-top: 25px;
 }
+
+.link-icon {
+    width: 50px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.link-icon img {
+    height: 100%;
+}

@@ -1,6 +1,13 @@
+// images for timeline
 import ByteDance from "../Assets/ByteDance.png";
 import USC from "../Assets/USC.png";
 import Pega from "../Assets/Pega.svg";
+
+// images for projects
+import Portfolio from "../Assets/Portfolio.png";
+import Beijing from "../Assets/ExperienceBeijing.png"
+import Raft from "../Assets/RaftAlgo.jpeg";
+
 
 export const TAGS = ["HOME", "WORK"];
 export const PAGES = ["", "work"];
@@ -57,11 +64,29 @@ export const ITEMS = [
         cardTitle: "✨ Technical Content Creator ",
         cardDetailedText:
         "Host a content channel with 4,300+ subscribers,focusing on software engineering and computer science topics. Produce diverse educational content,including personal experiences, project show cases, and step-by-step tutorials, empowering peers to navigate learning paths and field expectations.",
-        // media: {
-        //   type: "IMAGE",
-        //   source: {
-        //     url: Pega,
-        //   },
-        // },
       },
   ];
+
+  export const PROJECTS = [
+    {
+      image: Portfolio,
+      title: "Personal Website",
+      description: "😉 Heyyy you are on the site now!",
+      techStack: "ReactJS, Bootstrap",
+      link: "http://localhost:3000/"
+    },
+    {
+      image: Beijing,
+      title: "Experience Beijing",
+      description: "Beijing Welcomes You",
+      techStack: "ReactJS, Bootstrap",
+      link: "https://codesandbox.io/p/devbox/experience-beijing-glhqrk"
+    },
+    {
+      image: Raft,
+      title: "Raft Consensus Algo Impl",
+      description: "Distributed System Classic",
+      techStack: "Golang, Multithreading",
+      link: "https://github.com/EnyanX/Raft-Concensus-Algorithm"
+    },
+  ]

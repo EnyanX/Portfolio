@@ -1,27 +1,24 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
+import { PROJECTS } from "../../data/data";
 
-import Beijing from "../../Assets/ExperienceBeijing.png"
-import Portfolio from "../../Assets/Portfolio.png";
-import Raft from "../../Assets/RaftAlgo.jpeg";
-
-export default function ProjectRow({projectIdx}) {
-
+export default function ProjectRow({projects}) {
     return (
-      <Row style={{ margin: "100px"}}>
-        <Col md={4}>
-          {" "}
-          <ProjectCard dummyImg={Portfolio} title="Personal Website" description="😉 Heyyy you on the site now!"/>
-        </Col>
-        <Col md={4}>
-          {" "}
-          <ProjectCard dummyImg={Beijing} title="Experience Beijing" description="Beijing is the best"/>
-        </Col>
-        <Col md={4}>
-          {" "}
-          <ProjectCard dummyImg={Raft} title="Raft Concensus Algo Impl" description="Distributed System "/>
-        </Col>
+      <Row style={{ margin: "100px" }}>
+        {projects.map((project, idx) => (
+          <Col md={4}>
+            {" "}
+            <ProjectCard
+              key={idx}
+              image={project.image}
+              title={project.title}
+              description={project.description}
+              techStack={project.techStack}
+              link={project.link}
+            />
+          </Col>
+        ))}
       </Row>
     );
 }
