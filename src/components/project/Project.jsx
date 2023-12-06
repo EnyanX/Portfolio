@@ -1,10 +1,11 @@
 import React from "react";
-import "./Work.css";
+import "./Project.css";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectRow from "./ProjectRow";
 import { PROJECTS } from "../../data/data";
+import Grow from "../../Assets/Grow.png";
 
-export default function Work() {
+export default function Project() {
     const groupedProjects = [];
     const itemPerRow = 3;
     for(let i = 0; i < PROJECTS.length; i += itemPerRow) {
@@ -12,19 +13,24 @@ export default function Work() {
     }
 
     return (
-      <Container className="work">
-        <Row className="work-header">
+      <Container className="project">
+        <div className="grow"><img src={Grow} alt="grow"/></div>
+        <Row className="project-header">
           <Col md={1}></Col>
           <Col md={2}>
             <h1 className="big-text">PROJECTS</h1>
             <hr></hr>
           </Col>
         </Row>
-        <Container className="work-content">
+        <p className="comment">/* Web, Distributed System, Mobile, Game...You name it! */</p>
+        <Container className="project-content">
           {groupedProjects.map((group, index) => (
             <ProjectRow key={index} projects={group} />
           ))}
         </Container>
+        <div className="project-footer">
+            STAY TUNED 👀
+        </div>
       </Container>
     );
 }

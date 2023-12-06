@@ -9,7 +9,7 @@ import "./index.css";
 import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
-import Work from "./components/work/Work";
+import Project from "./components/project/Project";
 
 export default function App() {
   return (
@@ -19,7 +19,7 @@ export default function App() {
         <Routes>
           <Route path="/" exact element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/work" element={<Work />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
       </Router>
     </div>

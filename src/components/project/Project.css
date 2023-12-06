@@ -1,0 +1,38 @@
+.project {
+    padding-top: 110px;
+    animation: fade-in 3s;
+}
+
+.project hr {
+    height: 10px;
+    background-color: #AEDEFC;
+    position: relative;
+    top: -20px;
+    width: 115%;
+    opacity: 1; 
+}
+
+.project-content {
+    margin-top: -40px;
+    margin-bottom: 150px;
+}
+
+.comment {
+    font-family: monospace;
+}
+
+.grow {
+    position: absolute;
+    right: 30px;
+    top: 660px;
+    animation-name: jello;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+.project-footer {
+    font-family: 'Major Mono Display', monospace;
+    position: relative;
+    bottom: 15px;
+}

@@ -5,18 +5,21 @@ import Role from "./Role";
 import Links from "./Links";
 import ProfileImage from "../../Assets/profile-image.jpg";
 import DownArrow from "../../Assets/circle-down-solid.svg";
-import Raidient from "../../Assets/radient.png";
+import Raidient from "../../Assets/ray.png";
 import Pattern1 from "../../Assets/dots.png";
 import Overview from "./Overview";
 import Timeline from "./Timeline";
 
 
 export default function Home() {
+  function scrollWindowDown() {
+    window.scrollTo(0, 800);
+  }
+
   return (
     <section id="home">
       <div className="pattern1"><img src={Pattern1} alt="pattern" className="animation-jello"/></div>
-      {/* <div className="radient"><img src={Raidient} alt="radient" /></div> */}
-      
+      <div className="radient"><img src={Raidient} alt="radient" className="animation-jello"/></div>
       <Container className="home-content">
         <Row>
           <Col md={1} />
@@ -33,7 +36,7 @@ export default function Home() {
             <img src={ProfileImage} alt="profile" className="home-image"/>
           </Col>
         </Row>
-        <Row className="arraw-row"><img src={DownArrow} alt="arrow" className="home-arrow"/></Row>
+        <Row className="arraw-row"><img src={DownArrow} alt="arrow" className="home-arrow" onClick={scrollWindowDown}/></Row>
         <Overview />
         <Timeline />
       </Container>

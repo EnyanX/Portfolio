@@ -1,16 +1,14 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import { PROJECTS } from "../../data/data";
 
 export default function ProjectRow({projects}) {
     return (
       <Row style={{ margin: "100px" }}>
         {projects.map((project, idx) => (
-          <Col md={4}>
+          <Col md={4} key={idx}>
             {" "}
             <ProjectCard
-              key={idx}
               image={project.image}
               title={project.title}
               description={project.description}

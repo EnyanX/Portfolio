@@ -7,10 +7,16 @@ import Pega from "../Assets/Pega.svg";
 import Portfolio from "../Assets/Portfolio.png";
 import Beijing from "../Assets/ExperienceBeijing.png"
 import Raft from "../Assets/RaftAlgo.jpeg";
+import MapReduce from "../Assets/MapReduce.png";
+import MineSweeper from "../Assets/MineSweeper.png";
+import Mario from "../Assets/super-mario.png";
+import Zelda from "../Assets/zelda.png";
+import Frogger from "../Assets/frogger.png";
+import Stock from "../Assets/StockTrading.png";
 
 
-export const TAGS = ["HOME", "WORK"];
-export const PAGES = ["", "work"];
+export const TAGS = ["HOME", "PROJECT✨"];
+export const PAGES = ["", "project"];
 
 export const ASPECTS = ["Backend Developer", "Frontend Developer", "Tech Content Creator", "National Chess Master"];
 const backendTools = "Java/C++/Kotlin/Go";
@@ -71,22 +77,65 @@ export const ITEMS = [
     {
       image: Portfolio,
       title: "Personal Website",
-      description: "😉 Heyyy you are on the site now!",
-      techStack: "ReactJS, Bootstrap",
+      description: "😉 Heyyy it's the site you're on right now!",
+      techStack: "[Web] React, Bootstrap",
       link: "http://localhost:3000/"
     },
     {
       image: Beijing,
       title: "Experience Beijing",
-      description: "Beijing Welcomes You",
-      techStack: "ReactJS, Bootstrap",
+      description: "Discover Beijing's rich culture and travel gems",
+      techStack: "[Web] React, Chatgpt API",
       link: "https://codesandbox.io/p/devbox/experience-beijing-glhqrk"
     },
     {
       image: Raft,
       title: "Raft Consensus Algo Impl",
-      description: "Distributed System Classic",
-      techStack: "Golang, Multithreading",
+      description: "Implement a consensus algorithm for fault-tolerant distributed systems",
+      techStack: "[Backend] Go, Multithreading",
       link: "https://github.com/EnyanX/Raft-Concensus-Algorithm"
     },
+    {
+      image: MapReduce,
+      title: "MapReduce Algo Impl",
+      description: "Big data processing via parallel computation across distributed systems",
+      techStack: "[Backend] Go, Multithreading",
+      link: "https://github.com/EnyanX/Map-Reduce"
+    },
+    {
+      image: MineSweeper,
+      title: "Mine Sweeper",
+      description: "Navigate, avoid mines, conquer the explosive challenge 💥",
+      techStack: "[Mobile] Java, Android, BFS",
+      link: "https://github.com/EnyanX/Mine-Sweeper"
+    },
+    {
+      image: Mario,
+      title: "Super Mario",
+      description: "The iconic Super Mario adventure in a 2D side-scrolling fashion 🎮",
+      techStack: "[Game] C++, OOP",
+      link: ""
+      // link: "https://github.com/EnyanX/Mine-Sweeper"
+    },
+    {
+      image: Zelda,
+      title: "A Link to the Past",
+      description: "Mimic a portion of Zelda game, where Link walks around and attacks patrolling soldiers",
+      techStack: "[Game] C++, OOP, A* Search",
+      link: ""
+    },
+    {
+      image: Frogger,
+      title: "Frogger",
+      description: "Guide the frog between opposing lanes of trucks, cars, and other vehicles, to avoid becoming roadkill!",
+      techStack: "[Game] C++, OOP",
+      link: ""
+    },
+    {
+      image: Stock,
+      title: "Mock Money Market",
+      description: "Engage with real-time stock info, mark favorites, and trade with play money. Refine investment skills risk-free",
+      techStack: "[Web] JavaScript, Java",
+      link: ""
+    }
   ]

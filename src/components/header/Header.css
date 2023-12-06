@@ -1,15 +1,17 @@
 nav {
   margin: auto;
+  z-index: 9999;
 }
 nav ul {
   font-size: 14pt;
   font-family: 'Major Mono Display', monospace;
   margin-top:30px;
+  text-align: center;
 }
   
 .tag {
   text-decoration: none;
   color: white;
-  margin-left: 50px;
+  margin-right: 50px;
 }
   

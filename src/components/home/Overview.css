@@ -31,6 +31,11 @@
     font-family: monospace;
 }
 
+.aspect:hover {
+    background-color:rgb(109, 172, 175);
+    color: black;
+}
+
 .aspect p {
     font-family: 'IBM Plex Mono', monospace;
 }
@@ -43,4 +48,3 @@
 .aspect-icon img {
     width: 60px
 }
-

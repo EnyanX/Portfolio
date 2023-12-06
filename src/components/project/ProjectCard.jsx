@@ -10,7 +10,7 @@ export default function ProjectCard({image, title, description, techStack, link}
           <img src={image} alt="project" />
         </div>
         <p className="project-card-description">{description}</p>
-        <p className="project-card-tech-stack">TechStack: {techStack}</p>
+        <p className="project-card-tech-stack">{techStack}</p>
         {link && (
           <div className="link-icon">
             <a href={link} target="_blank"><img src={LinkIcon} alt="link"/></a>

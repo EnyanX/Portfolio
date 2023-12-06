@@ -6,16 +6,16 @@ export default function Role() {
     <TypeAnimation
       sequence={[
         'Software Engineer',
-        1000, 
+        800, 
         'Content Creator',
-        1000,
-        'Life-Long Learner',
-        1000,
+        800,
         'Chess Player',
-        1000,
+        800,
+        'Fight On Trojans!',
+        800,
       ]}
       wrapper="span"
-      speed={50}
+      speed={60}
       style={{ fontSize: '2em', display: 'inline-block', fontFamily: 'monospace', color: 'white'}}
       repeat={Infinity}
     />
