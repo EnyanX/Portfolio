@@ -24,14 +24,14 @@ export default function Project() {
   }
 
   return (
-    <Container className="project">
+    <section className="project">
       <div className="grow">
         <img src={Grow} alt="grow" />
       </div>
-      <Row className="project-header">
+      <Row>
         <Col md={1}></Col>
         <Col md={2}>
-          <h1 className="big-text">PROJECTS</h1>
+          <h1 className="big-text project-header">PROJECTS</h1>
           <hr></hr>
         </Col>
       </Row>
@@ -55,6 +55,6 @@ export default function Project() {
         ))}
       </Container>
       <div className="project-footer">STAY TUNED 👀</div>
-    </Container>
+    </section>
   );
 }

@@ -4,7 +4,7 @@ import USC from "../Assets/USC.png";
 import Pega from "../Assets/Pega.svg";
 
 // images for projects
-import Portfolio from "../Assets/Portfolio.png";
+import Portfolio from "../Assets/portfolio-page.png";
 import Beijing from "../Assets/ExperienceBeijing.png"
 import Raft from "../Assets/RaftAlgo.jpeg";
 import MapReduce from "../Assets/MapReduce.png";
@@ -80,7 +80,7 @@ export const ITEMS = [
       title: "Personal Website",
       description: "😉 Heyyy it's the site you're on right now!",
       techStack: "[Web] React, Bootstrap",
-      link: "http://localhost:3000/"
+      link: "http://enyanxia.netlify.com"
     },
     {
       image: Beijing,
