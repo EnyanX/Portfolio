@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <section id="home">
-      <div className="pattern1"><img src={Pattern1} alt="pattern" className="animation-jello"/></div>
+      <div className="pattern1"><img rel="preload" src={Pattern1} alt="pattern" className="animation-jello"/></div>
       <div className="radient"><img src={Raidient} alt="radient" className="animation-jello"/></div>
       <Container className="home-content">
         <Row>
@@ -33,7 +33,7 @@ export default function Home() {
             <Links className="icons"/>
           </Col>
           <Col md={3}>
-            <img src={ProfileImage} alt="profile" className="home-image"/>
+            <img src={ProfileImage} alt="profile" className="home-image" rel="preload"/>
           </Col>
         </Row>
         <Row className="arraw-row"><img src={DownArrow} alt="arrow" className="home-arrow" onClick={scrollWindowDown}/></Row>
