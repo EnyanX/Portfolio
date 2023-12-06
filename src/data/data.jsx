@@ -85,7 +85,7 @@ export const ITEMS = [
     {
       image: Beijing,
       title: "Experience Beijing",
-      description: "Discover Beijing's rich culture and travel gems",
+      description: "Discover Beijing's rich culture and travel gems. It's my first React project!",
       techStack: "[Web] React, Chatgpt API",
       link: "https://codesandbox.io/p/devbox/experience-beijing-glhqrk"
     },
@@ -116,7 +116,6 @@ export const ITEMS = [
       description: "The iconic Super Mario adventure in a 2D side-scrolling fashion 🎮",
       techStack: "[Game] C++, OOP",
       link: ""
-      // link: "https://github.com/EnyanX/Mine-Sweeper"
     },
     {
       image: Zelda,
@@ -142,8 +141,8 @@ export const ITEMS = [
     {
       image: BeijingOriginal,
       title: "Your Beijing Guide",
-      description: "Older version of Experience Beijing. Brainstormed my own color matching 🎨",
-      techStack: "[Web] vanilla JavaScript, PHP, SQL",
+      description: "Older version of Experience Beijing in vanilla JS. Brainstormed my own color matching 🎨",
+      techStack: "[Web] JavaScript, PHP, SQL",
       link: "https://github.com/EnyanX/Your-Beijing-Guide"
     }
   ]
