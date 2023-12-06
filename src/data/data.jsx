@@ -13,6 +13,7 @@ import Mario from "../Assets/super-mario.png";
 import Zelda from "../Assets/zelda.png";
 import Frogger from "../Assets/frogger.png";
 import Stock from "../Assets/StockTrading.png";
+import BeijingOriginal from "../Assets/BeijingWelcomesYou.png"
 
 
 export const TAGS = ["HOME", "PROJECT✨"];
@@ -137,5 +138,12 @@ export const ITEMS = [
       description: "Engage with real-time stock info, mark favorites, and trade with play money. Refine investment skills risk-free",
       techStack: "[Web] JavaScript, Java",
       link: ""
+    },
+    {
+      image: BeijingOriginal,
+      title: "Your Beijing Guide",
+      description: "Older version of Experience Beijing. Brainstormed my own color matching 🎨",
+      techStack: "[Web] vanilla JavaScript, PHP, SQL",
+      link: "https://github.com/EnyanX/Your-Beijing-Guide"
     }
   ]
