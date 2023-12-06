@@ -13,7 +13,7 @@ export default function ProjectCard({image, title, description, techStack, link}
         <p className="project-card-tech-stack">{techStack}</p>
         {link && (
           <div className="link-icon">
-            <a href={link} target="_blank"><img src={LinkIcon} alt="link"/></a>
+            <a href={link} target="_blank" rel="noreferrer"><img src={LinkIcon} alt="link"/></a>
           </div>
         )}
       </div>

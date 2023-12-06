@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8d42d545.css",
-    "main.js": "/static/js/main.04543361.js",
+    "main.js": "/static/js/main.afac7741.js",
     "static/media/ExperienceBeijing.png": "/static/media/ExperienceBeijing.daf7902818b8550933a4.png",
     "static/media/profile-image.jpg": "/static/media/profile-image.f68412b4eefe46228c30.jpg",
     "static/media/Portfolio.png": "/static/media/Portfolio.8a68c070a6897c7dc0d6.png",
@@ -25,10 +25,10 @@
     "index.html": "/index.html",
     "static/media/circle-down-solid.svg": "/static/media/circle-down-solid.db90e3d8061128a968904257b9d5f775.svg",
     "main.8d42d545.css.map": "/static/css/main.8d42d545.css.map",
-    "main.04543361.js.map": "/static/js/main.04543361.js.map"
+    "main.afac7741.js.map": "/static/js/main.afac7741.js.map"
   },
   "entrypoints": [
     "static/css/main.8d42d545.css",
-    "static/js/main.04543361.js"
+    "static/js/main.afac7741.js"
   ]
 }

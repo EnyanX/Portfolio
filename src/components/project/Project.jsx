@@ -22,7 +22,7 @@ export default function Project() {
             <hr></hr>
           </Col>
         </Row>
-        <p className="comment">/* Web, Distributed System, Mobile, Game...You name it! */</p>
+        <p className="comment"> "Web, Distributed System, Mobile, Game...You name it!" </p>
         <Container className="project-content">
           {groupedProjects.map((group, index) => (
             <ProjectRow key={index} projects={group} />
