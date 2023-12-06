@@ -12,6 +12,14 @@ export default function Project() {
         groupedProjects.push(PROJECTS.slice(i, Math.min(i + itemPerRow, PROJECTS.length)));
     }
 
+    // preload images for smooth display
+    for (let i = 0; i < groupedProjects.length; i++) {
+      for(let j = 0; j < groupedProjects[i].length; j++) {
+        const img = new Image();
+        img.src = groupedProjects[i][j];
+      }
+    }
+
     return (
       <Container className="project">
         <div className="grow"><img src={Grow} alt="grow"/></div>
