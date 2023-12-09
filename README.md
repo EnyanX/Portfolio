@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio project build with ReactJS and Bootstrap. It showcases my skills, projects, and professional journey as a software engineer. The portfolio is deployed and accessible on Netlify [enyanxia.netlify.com](https://enyanxia.netlify.app).
+
 
 ## Available Scripts
 
