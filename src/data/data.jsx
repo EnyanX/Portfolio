@@ -15,6 +15,9 @@ import Frogger from "../Assets/frogger.png";
 import Stock from "../Assets/StockTrading.png";
 import BeijingOriginal from "../Assets/BeijingWelcomesYou.png"
 
+// images for links
+import github from "../Assets/github.svg";
+import linkedin from "../Assets/linkedin.svg";
 
 export const TAGS = ["HOME", "PROJECT✨"];
 export const PAGES = ["", "project"];
@@ -146,3 +149,18 @@ export const ITEMS = [
       link: "https://github.com/EnyanX/Your-Beijing-Guide"
     }
   ]
+
+  export const LINKS_CONTENT = [
+    {
+      site: "https://www.linkedin.com/in/enyan-xia/",
+      image: linkedin,
+      alt: "linkedin-icon"
+    },
+    {
+      site: "https://github.com/EnyanX/",
+      image: github,
+      alt: "github-icon"
+    }
+  ]
+
+  

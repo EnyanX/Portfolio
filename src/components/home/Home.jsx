@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { LINKS_CONTENT } from "../../data/data";
 import Role from "./Role";
 import Links from "./Links";
 import ProfileImage from "../../Assets/profile-image.jpg";
@@ -30,7 +31,7 @@ export default function Home() {
             <p><span className="home-name"> ENYAN (EVELYN) XIA </span></p>
             <Role className="role"/>
             <hr></hr>
-            <Links className="icons"/>
+            <Links className="icons" linkContent={LINKS_CONTENT}/>
           </Col>
           <Col md={3}>
             <img src={ProfileImage} alt="profile" className="home-image" rel="preload"/>

@@ -4,6 +4,6 @@
 
 .icon {
     height: 35px;
-    width: auto; /* Ensure the width adjusts proportionally based on the height */
-    display: block; /* Eliminate any default inline spacing */
+    width: auto; 
+    display: block;
 }
