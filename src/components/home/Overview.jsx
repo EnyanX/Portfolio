@@ -36,7 +36,7 @@ export default function Overview() {
         <Row className="tech-channel">
           <Col md={1}></Col>
           <Col>
-            <p>{TECH_CHANNEL_INTRO}</p>
+            <p dangerouslySetInnerHTML={{ __html: TECH_CHANNEL_INTRO }} />
           </Col>
           <Col md={1}></Col>
         </Row>

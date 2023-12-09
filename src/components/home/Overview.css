@@ -12,7 +12,7 @@
 .aspect {
     margin-right: 75px;
     text-align: center;
-    height: 250px;
+    height: 260px;
     border-style: double;
     border-width: 2px;
     border-radius: 15px;  
@@ -42,4 +42,8 @@
 
 .tech-channel {
     padding-top: 50px;
+}
+
+.tech-channel strong {
+    color: #a2d6f7;
 }

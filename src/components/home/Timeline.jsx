@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { Chrono } from "react-chrono";
-import { ITEMS } from "../../data/data";
+import { TIMELINES } from "../../data/data";
 import SectionHeader from "../sectionHeader/SectionHeader";
 
 export default function Timeline() {
@@ -15,7 +15,7 @@ export default function Timeline() {
           <div style={{}}>
             <Chrono
               scrollable
-              items={ITEMS}
+              items={TIMELINES}
               mode="VERTICAL_ALTERNATING"
               theme={{
                 primary: "#AEDEFC",

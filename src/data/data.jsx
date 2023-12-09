@@ -23,13 +23,13 @@ export const TAGS = ["HOME", "PROJECT✨"];
 export const PAGES = ["", "project"];
 
 export const ASPECTS = ["Backend Developer", "Frontend Developer", "Tech Content Creator", "National Chess Master"];
-const backendTools = "Java/C++/Kotlin/Go";
-const frontendTools = "ReactJS/Bootstrap";
+const backendTools = "Java/C++/Kotlin/Go MVC/Microservice SQL/NoSQL";
+const frontendTools = "React/Postman Bootstrap/HTML/CSS ";
 const contentCreator = "4,300+ Subscribers";
-const chess = "Chess is the BEST!";
+const chess = "\"Chess is life\" – Bobby Fischer";
 export const ASPECT_DETAILS = [backendTools, frontendTools, contentCreator, chess];
 
-export const ITEMS = [
+export const TIMELINES = [
     {
         title: "Aug 2019 - Dec 2023",
         cardTitle: "University of Southern California",
@@ -73,7 +73,7 @@ export const ITEMS = [
         title: "May-Present 2023",
         cardTitle: "✨ Technical Content Creator ",
         cardDetailedText:
-        "Host a content channel with 4,300+ subscribers,focusing on software engineering and computer science topics. Produce diverse educational content,including personal experiences, project show cases, and step-by-step tutorials, empowering peers to navigate learning paths and field expectations.",
+        "Host a content channel focusing on software engineering and computer science topics. Produce diverse educational content, including personal experiences, project show cases, and step-by-step tutorials, empowering peers to navigate learning paths and field expectations.",
       },
 ];
 
@@ -82,7 +82,7 @@ export const PROJECTS = [
     image: Portfolio,
     title: "Personal Website",
     description: "😉 Heyyy it's the site you're on right now!",
-    techStack: "[Web] React, Bootstrap",
+    techStack: "[Web] React, Bootstrap, Netlify",
     link: "http://enyanxia.netlify.com"
   },
   {
@@ -165,4 +165,4 @@ export const LINKS_CONTENT = [
 
 
 export const OVERVIEW_DESCRIPTION = "I'm a software engineer with experience in both Backend and Frontend. My passion lies in leveraging technology to tackle complex business challenges. Fun facts, I'm a technical content creator and chess player in my free time!";
-export const TECH_CHANNEL_INTRO = "Since May 2023, my channel has garnered 4,300+ subscribers and over 200k views. Specializing in computer science and software engineering, I cover tech stack intros (ReactJS, Kotlin), share insights from internships (agile development, Scrum sprints, pair programming), and recommend study resources (full-stack web design, algorithms). The driving force behind my channel is a sincere desire to assist fellow computer science enthusiasts in navigating their learning paths. Having experienced the challenges of transitioning from a different major, I aim to share the insights and advice I wish I had received when I first started my CS journey. My goal is to guide and support others who may feel as lost as I once did in the vast world of computer science education."
+export const TECH_CHANNEL_INTRO = "Since May 2023, my channel has garnered <strong>4,300+ subscribers</strong> and over <strong>200k views</strong>. Focusing in computer science and software engineering, I cover tech stack intros (React, Kotlin), share insights from internships (agile development, pair programming, best coding practices), and recommend study resources (full-stack web design, algorithms, etc). The driving force behind my channel is a sincere desire to assist fellow computer science peers in navigating their learning paths. Having experienced the challenges of transitioning from a different major, I aim to share the insights and tips I wish I had received when I first started my CS journey. My goal is to support others who may feel as lost as I once did in the vast world of computer science education. <p>(Yes I started college as a Mechanical Engineering major LOL)</p>"

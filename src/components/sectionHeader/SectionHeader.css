@@ -4,12 +4,12 @@
     margin-bottom: 15px;
 }
 
-u {
+.section-header u {
     position: relative;
     text-decoration: none;
 }
 
-u::after {
+.section-header u::after {
     content: '';
     position: absolute;
     bottom: -5px;
