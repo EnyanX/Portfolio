@@ -4,7 +4,7 @@ import './SectionHeader.css';
 
 export default function SectionHeader({sectionName, colSize}) {
     return (
-      <Row>
+      <Row className="section-header">
         <Col md={1} />
         <Col>
           <h1 className="big-text">

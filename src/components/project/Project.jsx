@@ -5,7 +5,6 @@ import ProjectRow from "./ProjectRow";
 import { TypeAnimation } from "react-type-animation";
 import { PROJECTS } from "../../data/data";
 import Grow from "../../Assets/Grow.png";
-import SectionHeader from "../sectionHeader/SectionHeader";
 
 export default function Project() {
   const groupedProjects = [];
@@ -29,9 +28,6 @@ export default function Project() {
       <div className="grow">
         <img src={Grow} alt="grow" />
       </div>
-      <div className="project-header">
-        <SectionHeader sectionName="PROJECTS" className="project-header" />
-      </div>
       <TypeAnimation
         sequence={[
           "Web, Distributed System, Mobile, Game... You name it! ",
@@ -40,7 +36,7 @@ export default function Project() {
         wrapper="span"
         speed={50}
         style={{
-          fontSize: "13pt",
+          fontSize: "15pt",
           display: "inline-block",
           fontFamily: "'Josefin Sans', sans-serif",
         }}

@@ -4,13 +4,8 @@
     background-image: url('../../Assets/galaxy.jpeg');
 }
 
-.project-header h1{
-    text-align: left;
-    margin-left: 60px;
-}
-
 .project-content {
-    margin-top: -40px;
+    margin-top: 0px;
     margin-bottom: 150px;
 }
 
