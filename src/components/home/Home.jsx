@@ -9,7 +9,6 @@ import Raidient from "../../Assets/ray.png";
 import Pattern1 from "../../Assets/dots.png";
 import Overview from "./Overview";
 import Timeline from "./Timeline";
-import ContentCreator from "./ContentCreator";
 
 
 export default function Home() {
