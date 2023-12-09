@@ -38,7 +38,6 @@ export default function Home() {
         </Row>
         <Row className="arraw-row"><img src={DownArrow} alt="arrow" className="home-arrow" onClick={scrollWindowDown}/></Row>
         <Overview />
-        <ContentCreator />
         <Timeline />
       </Container>
     </section>

@@ -13,10 +13,7 @@ export default function Overview() {
 
     return (
       <div className="overview">
-        <Row>
-          <Col md={1}></Col>
-          <SectionHeader sectionName="OVERVIEW" />
-        </Row>
+        <SectionHeader sectionName="OVERVIEW" />
         <Row>
           <Col md={1}></Col>
           <Col md={7}>

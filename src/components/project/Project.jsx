@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import ProjectRow from "./ProjectRow";
 import { TypeAnimation } from "react-type-animation";
 import { PROJECTS } from "../../data/data";
@@ -29,10 +29,9 @@ export default function Project() {
       <div className="grow">
         <img src={Grow} alt="grow" />
       </div>
-      <Row>
-        <Col md={1}></Col>
+      <div className="project-header">
         <SectionHeader sectionName="PROJECTS" className="project-header" />
-      </Row>
+      </div>
       <TypeAnimation
         sequence={[
           "Web, Distributed System, Mobile, Game... You name it! ",

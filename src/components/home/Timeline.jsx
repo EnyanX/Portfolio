@@ -9,10 +9,7 @@ export default function Timeline() {
 
   return (
     <div className="timeline">
-      <Row>
-        <Col md={1} />
-        <SectionHeader sectionName="TIMELINE" />
-      </Row>
+      <SectionHeader sectionName="TIMELINE" />
       <Row>
         <Col md={2}></Col>
         <Col>
