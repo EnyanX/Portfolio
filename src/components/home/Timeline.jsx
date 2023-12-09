@@ -3,6 +3,7 @@ import "./Timeline.css";
 import { Row, Col } from "react-bootstrap";
 import { Chrono } from "react-chrono";
 import { ITEMS } from "../../data/data";
+import SectionHeader from "../sectionHeader/SectionHeader";
 
 export default function Timeline() {
 
@@ -10,15 +11,11 @@ export default function Timeline() {
     <div className="timeline">
       <Row>
         <Col md={1} />
-        <Col>
-          <h1 className="big-text">TIMELINE</h1>
-          <hr></hr>
-        </Col>
+        <SectionHeader sectionName="TIMELINE" />
       </Row>
       <Row>
-        {/* <Fade in> */}
         <Col md={2}></Col>
-        <Col >
+        <Col>
           <div style={{}}>
             <Chrono
               scrollable
@@ -33,7 +30,6 @@ export default function Timeline() {
             />
           </div>
         </Col>
-        {/* </Fade> */}
       </Row>
     </div>
   );

@@ -4,15 +4,6 @@
     animation: fade-in 5s;
 }
 
-.overview hr {
-    height: 10px;
-    background-color: #A7D397;
-    position: relative;
-    top: -20px;
-    width: 21%;
-    opacity: 1; 
-}
-
 .overview-description {
     font-family: monospace;
     margin-bottom: 50px;

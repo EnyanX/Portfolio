@@ -6,6 +6,7 @@ import FrontEndIcon from "../../Assets/frontend-icon.png";
 import ChessIcon from "../../Assets/chess-icon4.png";
 import IdeaIcon from "../../Assets/idea-icon3.png";
 import { ASPECTS, ASPECT_DETAILS } from "../../data/data";
+import SectionHeader from "../sectionHeader/SectionHeader";
 
 export default function Overview() {
     const aspectIcons = [ProcedureIcon, FrontEndIcon, IdeaIcon, ChessIcon];
@@ -14,10 +15,7 @@ export default function Overview() {
       <div className="overview">
         <Row>
           <Col md={1}></Col>
-          <Col>
-            <h1 className="big-text">OVERVIEW</h1>
-            <hr></hr>
-          </Col>
+          <SectionHeader sectionName="OVERVIEW" />
         </Row>
         <Row>
           <Col md={1}></Col>

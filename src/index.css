@@ -17,12 +17,6 @@ html {
   overflow-x: hidden;
 }
 
-.big-text {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 45px;
-  margin-bottom: 15px;
-}
-
 @keyframes jello {
   0% {
     transform: scale(1, 1);

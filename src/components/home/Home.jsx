@@ -9,6 +9,7 @@ import Raidient from "../../Assets/ray.png";
 import Pattern1 from "../../Assets/dots.png";
 import Overview from "./Overview";
 import Timeline from "./Timeline";
+import ContentCreator from "./ContentCreator";
 
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
         </Row>
         <Row className="arraw-row"><img src={DownArrow} alt="arrow" className="home-arrow" onClick={scrollWindowDown}/></Row>
         <Overview />
+        <ContentCreator />
         <Timeline />
       </Container>
     </section>
