@@ -1,10 +1,10 @@
 .overview {
     margin-top: 130px;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
     animation: fade-in 5s;
 }
 
-.overview-description {
+.overview p {
     font-family: monospace;
     margin-bottom: 50px;
 }
@@ -38,4 +38,8 @@
 
 .aspect-icon img {
     width: 60px
+}
+
+.tech-channel {
+    padding-top: 50px;
 }

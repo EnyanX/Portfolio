@@ -5,7 +5,7 @@ import ProcedureIcon from "../../Assets/procedure-icon.png";
 import FrontEndIcon from "../../Assets/frontend-icon.png";
 import ChessIcon from "../../Assets/chess-icon4.png";
 import IdeaIcon from "../../Assets/idea-icon3.png";
-import { ASPECTS, ASPECT_DETAILS } from "../../data/data";
+import { ASPECTS, ASPECT_DETAILS, OVERVIEW_DESCRIPTION, TECH_CHANNEL_INTRO } from "../../data/data";
 import SectionHeader from "../sectionHeader/SectionHeader";
 
 export default function Overview() {
@@ -16,16 +16,12 @@ export default function Overview() {
         <SectionHeader sectionName="OVERVIEW" />
         <Row>
           <Col md={1}></Col>
-          <Col md={7}>
-            <p className="overview-description">
-              I'm a software engineer with experience in both Backend and
-              Frontend. My passion lies in leveraging technology to tackle
-              complex business challenges. Fun facts, I'm a technical content
-              creator and chess player in my free time!
-            </p>
+          <Col>
+            <p className="overview-description">{OVERVIEW_DESCRIPTION}</p>
           </Col>
+          <Col md={1}></Col>
         </Row>
-        <Row style={{ marginTop: "30px" }}>
+        <Row style={{ marginTop: "15px" }}>
           <Col md={1}></Col>
           {ASPECTS.map((aspect, index) => (
             <Col md={2} key={index} className="aspect">
@@ -36,6 +32,13 @@ export default function Overview() {
               <p>{ASPECT_DETAILS[index]}</p>
             </Col>
           ))}
+        </Row>
+        <Row className="tech-channel">
+          <Col md={1}></Col>
+          <Col>
+            <p>{TECH_CHANNEL_INTRO}</p>
+          </Col>
+          <Col md={1}></Col>
         </Row>
       </div>
     );
