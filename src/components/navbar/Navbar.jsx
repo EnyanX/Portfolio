@@ -1,9 +1,9 @@
 import React from "react";
-import "./Header.css";
+import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { TAGS, PAGES } from "../../data/data";
 
-export default function Header() {
+export default function Navbar() {
   return (
     <nav>
       <ul>

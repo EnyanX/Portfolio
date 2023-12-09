@@ -18,3 +18,7 @@ u::after {
     height: 10px; 
     background-color: #A7D397;
 }
+
+.section-header {
+    margin-bottom: 10px;
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import "./Timeline.css";
 import { Row, Col } from "react-bootstrap";
 import { Chrono } from "react-chrono";
 import { ITEMS } from "../../data/data";
@@ -8,7 +7,7 @@ import SectionHeader from "../sectionHeader/SectionHeader";
 export default function Timeline() {
 
   return (
-    <div className="timeline">
+    <div style={{animation: 'fade-in 5s'}}>
       <SectionHeader sectionName="TIMELINE" />
       <Row>
         <Col md={2}></Col>

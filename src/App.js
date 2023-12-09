@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import "./App.css";
-import Header from "./components/header/Header";
+import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import Project from "./components/project/Project";
 
@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
+        <Navbar />
         <Routes>
           <Route path="/" exact element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
