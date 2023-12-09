@@ -23,15 +23,19 @@ export default function Overview() {
         </Row>
         <Row style={{ marginTop: "15px" }}>
           <Col md={1}></Col>
-          {ASPECTS.map((aspect, index) => (
-            <Col md={2} key={index} className="aspect">
-              <div className="aspect-icon">
-                <img src={aspectIcons[index]} alt="icon" />
-              </div>
-              <h4>{aspect}</h4>
-              <p>{ASPECT_DETAILS[index]}</p>
-            </Col>
-          ))}
+          <Col>
+            <Row>
+              {ASPECTS.map((aspect, index) => (
+                <Col md={2} key={index} className="aspect">
+                  <div className="aspect-icon">
+                    <img src={aspectIcons[index]} alt="icon" />
+                  </div>
+                  <h4>{aspect}</h4>
+                  <p>{ASPECT_DETAILS[index]}</p>
+                </Col>
+              ))}
+            </Row>
+          </Col>
         </Row>
         <Row className="tech-channel">
           <Col md={1}></Col>

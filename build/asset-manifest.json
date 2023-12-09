@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f482190.css",
-    "main.js": "/static/js/main.2b28377c.js",
+    "main.css": "/static/css/main.92f78a4f.css",
+    "main.js": "/static/js/main.a483a756.js",
     "static/media/galaxy.jpeg": "/static/media/galaxy.c2320b6b0f365880e20b.jpeg",
     "static/media/ExperienceBeijing.png": "/static/media/ExperienceBeijing.daf7902818b8550933a4.png",
     "static/media/portfolio-page.png": "/static/media/portfolio-page.9dcb60335a96673847e7.png",
@@ -18,7 +18,7 @@
     "static/media/RaftAlgo.jpeg": "/static/media/RaftAlgo.b7d37d8c1108409aec31.jpeg",
     "static/media/idea-icon3.png": "/static/media/idea-icon3.f516433d592ffb42aac6.png",
     "static/media/procedure-icon.png": "/static/media/procedure-icon.1a7adc8e90155385ed2f.png",
-    "static/media/chess-icon2.png": "/static/media/chess-icon2.1d3d3e02d419deb4afa2.png",
+    "static/media/chess-icon4.png": "/static/media/chess-icon4.176cd7ae6ddd8ac1e16d.png",
     "static/media/MapReduce.png": "/static/media/MapReduce.81c257b1a2d3bac0d611.png",
     "static/media/Pega.svg": "/static/media/Pega.553510a6cced157daed44ccfd4665b9f.svg",
     "static/media/github.svg": "/static/media/github.1c024b61f3a033a20cc5cd6c4b17e977.svg",
@@ -26,11 +26,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.f8fe63ee9f57422b73d7cd03773690a6.svg",
     "index.html": "/index.html",
     "static/media/circle-down-solid.svg": "/static/media/circle-down-solid.db90e3d8061128a968904257b9d5f775.svg",
-    "main.3f482190.css.map": "/static/css/main.3f482190.css.map",
-    "main.2b28377c.js.map": "/static/js/main.2b28377c.js.map"
+    "main.92f78a4f.css.map": "/static/css/main.92f78a4f.css.map",
+    "main.a483a756.js.map": "/static/js/main.a483a756.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f482190.css",
-    "static/js/main.2b28377c.js"
+    "static/css/main.92f78a4f.css",
+    "static/js/main.a483a756.js"
   ]
 }

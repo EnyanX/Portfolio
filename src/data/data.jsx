@@ -26,7 +26,7 @@ export const ASPECTS = ["Backend Developer", "Frontend Developer", "Tech Content
 const backendTools = "Java/C++/Kotlin/Go MVC/Microservice SQL/NoSQL";
 const frontendTools = "React/Postman Bootstrap/HTML/CSS ";
 const contentCreator = "4,300+ Subscribers";
-const chess = "\"Chess is life\" – Bobby Fischer";
+const chess = "\"Chess is life\"";
 export const ASPECT_DETAILS = [backendTools, frontendTools, contentCreator, chess];
 
 export const TIMELINES = [

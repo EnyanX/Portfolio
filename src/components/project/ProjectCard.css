@@ -11,6 +11,13 @@
     padding: 5px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .project-card {
+        height: 560px;
+        padding: 0px;
+    }
+}
+
 .project-card img {
     width: 100%;
     border-width: 2px;
