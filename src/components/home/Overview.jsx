@@ -3,7 +3,7 @@ import "./Overview.css";
 import { Row, Col } from "react-bootstrap";
 import ProcedureIcon from "../../Assets/procedure-icon.png";
 import FrontEndIcon from "../../Assets/frontend-icon.png";
-import ChessIcon from "../../Assets/chess-icon4.png";
+import ChessIcon from "../../Assets/chess-icon2.png";
 import IdeaIcon from "../../Assets/idea-icon3.png";
 import { ASPECTS, ASPECT_DETAILS, OVERVIEW_DESCRIPTION, TECH_CHANNEL_INTRO } from "../../data/data";
 import SectionHeader from "../sectionHeader/SectionHeader";

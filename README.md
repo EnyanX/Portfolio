@@ -4,8 +4,8 @@ This is my personal portfolio project build with ReactJS, Bootstrap, and Google 
 
 
 ## Table of Contents
-- [Home](https://enyanxia.netlify.app/home) 
-- [Projects](https://enyanxia.netlify.app/project)
+- [Home](https://enyanxia.com/home) 
+- [Projects](https://enyanxia.com/project)
 
 ## Installation
 To run the project locally, follow these steps:

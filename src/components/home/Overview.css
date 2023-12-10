@@ -23,7 +23,9 @@
 }
 
 .aspect:hover {
-    background-color:rgb(109, 172, 175);
+    /* background-color:rgb(109, 172, 175); */
+    background-color: rgb(255, 255, 255);
+    opacity: 95%;
     color: black;
 }
 

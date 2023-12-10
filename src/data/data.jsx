@@ -19,7 +19,7 @@ import BeijingOriginal from "../Assets/BeijingWelcomesYou.png"
 import github from "../Assets/github.svg";
 import linkedin from "../Assets/linkedin.svg";
 
-export const TAGS = ["HOME", "PROJECT✨"];
+export const TAGS = ["HOME", "PROJECT"];
 export const PAGES = ["", "project"];
 
 export const ASPECTS = ["Backend Developer", "Frontend Developer", "Tech Content Creator", "National Chess Master"];
