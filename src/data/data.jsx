@@ -90,7 +90,7 @@ export const PROJECTS = [
     title: "Experience Beijing",
     description: "Discover Beijing's rich culture and travel gems. It's my first React project!",
     techStack: "[Web] React, Chatgpt API",
-    link: "https://codesandbox.io/p/devbox/experience-beijing-glhqrk"
+    link: "https://codesandbox.io/p/devbox/experience-beijing-l6xmzm"
   },
   {
     image: Raft,
