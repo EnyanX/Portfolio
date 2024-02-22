@@ -14,6 +14,7 @@ export default function ProjectRow({projects}) {
               description={project.description}
               techStack={project.techStack}
               link={project.link}
+              github={project.github}
             />
           </Col>
         ))}
